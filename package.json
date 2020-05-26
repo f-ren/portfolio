@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f-ren/portfolio.git"
+  },
+  "author": "ren f",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f-ren/portfolio/issues"
+  },
+  "homepage": "https://github.com/f-ren/portfolio#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "jquery": "^3.4.1"
+  }
+}

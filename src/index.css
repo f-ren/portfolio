@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color: white
+}
+header {
+  margin: 50px;
+}
+
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+  url('imgs/background.jpg') no-repeat center center fixed;
+background-size: cover;
+}
+.contact{
+  background: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+.contact-links {
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+}
+.contact-links:hover,
+.contact-links:focus {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+}
+p {
+  padding: 20px;
+}
+.about-me {
+  background: rgba(0, 0, 0, 0.4);
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.projects{
+  background: rgba(0, 0, 0, 0.4);
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.project-title{
+margin: 10px;
+font-size: 30px;
+}
+.project-link{
+margin:5px;
+padding: 5px;
+color: goldenrod;
+}
+.project-link:hover{
+  background: rgba(0, 0, 0, 0.5);
+  border:1px solid black;
+}
+.stacks{
+  margin: 10px;
+  font-size: 30px;
+}
+@media screen and (min-width: 500px){
+  .projects {
+    flex-direction: column;
+  }
